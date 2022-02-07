@@ -1,0 +1,22 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 feb 2022, 10:43:38
+    Author     : alber
+*/
+
+.backg {
+    background-color: green;
+}
+
+.white{
+    color: white;
+}
+
+
+.logo{
+    width:25%;
+    position: center;
+}
