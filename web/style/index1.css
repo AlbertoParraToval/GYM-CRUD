@@ -1,0 +1,28 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 feb 2022, 16:48:12
+    Author     : alber
+*/
+@font-face {
+  font-family: texto;
+  src: url("../fonts/MusticaPro-SemiBold.otf");
+}
+body{font-family:texto;}
+html{scroll-behavior: smooth;}
+
+
+
+
+.gris{background-color: rgb(144, 144, 144);}
+.rojo_oscuro{background-color: rgb(176, 1, 0);}
+.rojo{background-color: red;}
+.aqua{background-color: rgb(0, 162, 156);}
+.morado_oscuro{background-color: rgb(0, 24, 73);}
+.naranja{background-color:rgb(254, 150, 0);}
+.azul_electrico{background-color: rgb(0, 114, 187);}
+.tauri{background-color: rgb(0, 11, 34);}
+.azul_claro{background-color: rgb(0, 161, 225);}
+.verde{background-color: rgb(0, 88, 80);}
