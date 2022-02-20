@@ -1,4 +1,4 @@
-# CRUD Fórmula 1 
+# My Gym (CRUD)
 Aplicación CRUD de la asignatura de programación.
 
 Primera Versión de la Página de Login.
