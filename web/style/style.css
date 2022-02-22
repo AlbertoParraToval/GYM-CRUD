@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 feb 2022, 10:52:32
+    Author     : alber
+
+/*INDEX*/
+#logo{
+    width:20px;
+}
+
+/* COLORES UTILES */
+.fondo{
+    background-color: rgb(101,66,34);
+}
+
+
+.botomBorrado{
+    background-color: red;
+}
+
+.botomModificar{
+    background-color: yellow;
+}
+
+.botomInsertar{
+       background-color: green;
+}
+
+
+.foto{
+    width:100%
+}
+.menuPrincipal{
+    background-color:darkslateblue;
+}
+
