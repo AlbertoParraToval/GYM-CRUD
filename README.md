@@ -14,12 +14,12 @@ Al inicio en nuestra barra de navegación tenemos la posibilidad de entrar a tod
 ![image](https://user-images.githubusercontent.com/91873665/155106164-4409fd7d-1852-447e-b2c0-1c85761fc736.png)
 
 
-Si pulsamos el boton modificar nos lleva a la siguiente página:
+# Si pulsamos el boton modificar nos lleva a la siguiente página:
 ![image](https://user-images.githubusercontent.com/91873665/155107153-5548d2dc-d72d-4730-b419-63dd301601c4.png)
 El código:
 ![image](https://user-images.githubusercontent.com/91873665/155106958-c7508403-9d5a-4b05-b37d-aedf2530e012.png)
+![image](https://user-images.githubusercontent.com/91873665/155107502-e8bd74df-33cd-4b17-88b4-be005d0179d2.png)
 
-
-Si pulsamos el boton borrar se reinicia la pagina listado de socios y se borra el socio seleccionado (Código)
+# Si pulsamos el boton borrar se reinicia la pagina listado de socios y se borra el socio seleccionado (Código)
 ![image](https://user-images.githubusercontent.com/91873665/155106859-cde7f7d1-41d2-4265-95f4-29d5daf8169e.png)
 
