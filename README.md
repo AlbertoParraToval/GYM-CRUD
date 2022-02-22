@@ -8,9 +8,10 @@ En el indice encontraremos junto a la barra de navegación un formulario en el c
 ![image](https://user-images.githubusercontent.com/91873665/155104868-756c4eb6-4b49-41ea-898d-15fbcbf1b032.png)
 ![image](https://user-images.githubusercontent.com/91873665/155105043-698c5ff5-f1d5-428b-baf1-a99e7b8649ee.png)
 ![image](https://user-images.githubusercontent.com/91873665/155105088-d3886552-8555-4365-9050-096c2438e809.png)
-![image](https://user-images.githubusercontent.com/91873665/155106019-1f28f746-233e-41e5-8adb-923f813ae77a.png)
+
 ## 2º Pagina "Listado de Socios"
 Al inicio en nuestra barra de navegación tenemos la posibilidad de entrar a todas las diferentes páginas siendo una de estas el numero de socios que hay ya inscritos para que al inscribirnos no ocurra ningun error. Además en esta página podrémos modificar, y borrar todos los perfiles de socios que tengamos en ella. 
+![image](https://user-images.githubusercontent.com/91873665/155106164-4409fd7d-1852-447e-b2c0-1c85761fc736.png)
 
 
 Si pulsamos el boton modificar nos lleva a la siguiente página:
