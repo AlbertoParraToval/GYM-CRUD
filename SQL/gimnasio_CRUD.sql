@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 20-02-2022 a las 12:27:56
+-- Tiempo de generación: 22-02-2022 a las 19:06:37
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 7.3.30
 
@@ -38,11 +38,13 @@ CREATE TABLE `actividad` (
 --
 
 INSERT INTO `actividad` (`CodAct`, `NomAct`, `DescAct`) VALUES
-(1, 'Body Pump', 'BodyPump es un programa grupal de entrenamiento basado en el levantamiento de pesas, creado y distribuido internacionalmente por Les Mills International.'),
-(2, 'Boxeo', 'Entremientos mix con sparring y peleas reales para todas las categorías.'),
-(3, 'Spinning', 'El spinning es un ejercicio aeróbico y de piernas principalmente, donde el monitor o profesor puede mediante el cambio de la frecuencia de pedaleo y de la resistencia al movimiento.'),
+(1, 'Yoga', 'El yoga es una práctica que conecta el cuerpo, la respiración y la mente. Esta práctica utiliza posturas físicas, ejercicios de respiración y meditación para mejorar la salud general.'),
+(2, 'Boxeo', 'Deporte en el que dos personas combaten entre sí, únicamente con sus puños. '),
+(3, 'Body Attack', 'Entrenamiento inspirado en movimientos de diferentes deportes que mejora la resistencia cardiovascular, la fuerza y potencia muscular.'),
 (4, 'Zumba', 'Zumba es una disciplina fitness creada a mediados de los años 90 enfocada por una parte a mantener un cuerpo saludable y a fortalecer y dar flexibilidad al cuerpo mediante movimientos de baile.'),
-(5, 'Aerobic', 'Aeróbic  es un tipo de gimnasia que se realiza con música. Sus beneficios son además de ejercitar capacidades físicas, ejercitar la flexibilidad, coordinación, orientación, ritmo, etc.');
+(5, 'CrossFit', 'Se define como un sistema de entrenamiento de fuerza y acondicionamiento basado en ejercicios funcionales constantemente variados realizados a una alta intensidad.'),
+(6, 'Xcore', 'Una sesión de abdominales muy variada, que ayuda al deportista a mejorar la fuerza en el core o centro del cuerpo.'),
+(7, 'Body Pump', ' Se realizan muchas repeticiones a un ritmo más o menos rápido, lo que ayuda a activar la capacidad cardiovascular');
 
 -- --------------------------------------------------------
 
@@ -56,21 +58,31 @@ CREATE TABLE `apuntado` (
   `FecApu` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+
 --
 -- Volcado de datos para la tabla `apuntado`
 --
 
 INSERT INTO `apuntado` (`CodCli`, `CodAct`, `FecApu`) VALUES
-(1, 3, '2003-01-01'),
-(6, 4, '1900-01-01'),
-(8, 2, '1900-01-01'),
-(9, 2, '1900-01-01'),
-(50, 3, '2000-01-01'),
-(55, 3, '1900-01-01'),
-(231, 2, '2001-01-01'),
-(234, 3, '1900-01-01'),
-(392, 3, '2001-01-01'),
-(999, 5, '2003-01-01');
+(1, 1, '1900-01-01'),
+(2, 3, '1900-01-01'),
+(3, 5, '1900-01-01'),
+(5, 3, '1900-01-01'),
+(7, 7, '1900-01-01'),
+(12, 5, '1900-01-01'),
+(15, 3, '1900-01-01'),
+(23, 1, '1900-01-01'),
+(50, 2, '1900-01-01'),
+(132, 4, '1900-01-01'),
+(223, 5, '1900-01-01'),
+(234, 2, '1900-01-01'),
+(424, 5, '1900-01-01'),
+(666, 3, '1900-01-01'),
+(999, 5, '2003-01-01'),
+(2322, 2, '1900-01-01'),
+(2343, 2, '1900-01-01'),
+(3412, 7, '1900-01-01'),
+(12312, 2, '1900-01-01');
 
 -- --------------------------------------------------------
 
@@ -90,13 +102,15 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`CodCli`, `NomCli`, `ApeCli`, `FechNac`) VALUES
-(9, 'Ale cueto', 'Benitez pere', '2022-02-09'),
-(22, 'Sergio', 'Morales García', '1995-05-07'),
-(234, 'adsf', 'asdf', '2016-01-20'),
-(342, 'Diego', 'Aguilera Martin', '1997-01-01'),
-(343, 'Alejandro', 'Cueto Jimenez', '1990-01-01'),
-(1233, 'David', 'Antunez Pérez', '1992-05-07'),
-(3245, 'Jose Antonio', 'Benitez Ruiz', '1999-01-01');
+(5, 'Alberto ', 'Parra Toval', '2003-01-21'),
+(7, 'Jose Antonio', 'Benitez Ruiz', '2003-02-05'),
+(12, 'David', 'Antúnez Pérez', '2003-06-05'),
+(15, 'Diego', 'Rodríguez Barcos', '2002-10-10'),
+(23, 'Alberto ', 'Aguilera Martín', '1997-12-31'),
+(132, 'Alvaro', 'Fernandez Fernandez', '2022-02-19'),
+(234, 'Sergio', 'Morales Garcia', '2003-11-08'),
+(424, 'Veronica', 'Pons Gonzalez', '2003-08-21'),
+(666, 'Sergio', 'Aguilera Martín', '2002-09-12');
 
 --
 -- Índices para tablas volcadas
