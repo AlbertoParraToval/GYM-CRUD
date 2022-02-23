@@ -36,7 +36,7 @@ Y como conclusión pues el mezclar html, Css, java y base de datos ha sido una e
 
 ## Video De Youtube
 https://youtu.be/xTctsrI4fnU
-[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://youtu.be/xTctsrI4fnU)
+[![Alt text](https://youtu.be/xTctsrI4fnU)](https://youtu.be/xTctsrI4fnU)
 
 ## Posibles Mejoras
 - La introducción de un login.
