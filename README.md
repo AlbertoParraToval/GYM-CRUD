@@ -36,5 +36,5 @@ Y como conclusión pues el mezclar html, Css, java y base de datos ha sido una e
 
 
 ## Posibles Mejoras
-La introducción de un login 
-Poder añadir más disciplinas/Actividades copiando lo que hago en la pagina de listado de Socios
+- La introducción de un login.
+- Poder añadir más disciplinas/Actividades copiando lo que hago en la pagina de listado de Socios.
