@@ -34,4 +34,7 @@ En primer lugar, lo que más me ha costado en este trabajo es a la hora de mezcl
 
 Y como conclusión pues el mezclar html, Css, java y base de datos ha sido una experiencia enriquecedora a la vez que estresante cuanto menos, sin embargo acabo contento con el trabajo que he realizado.
 
-By Alberto Parra Toval
+
+## Posibles Mejoras
+La introducción de un login 
+Poder añadir más disciplinas/Actividades copiando lo que hago en la pagina de listado de Socios
